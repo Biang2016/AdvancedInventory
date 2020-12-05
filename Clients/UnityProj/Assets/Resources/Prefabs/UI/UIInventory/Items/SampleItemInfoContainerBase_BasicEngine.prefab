@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4484942208485186539
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.originalOccupiedGridPositions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 27dc2b670192213438dc29a8cb525c9a,
+        type: 3}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemCategoryName
+      value: Category2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemName
+      value: Basic Engine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemColor.b
+      value: 0.28014565
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemQuality
+      value: Uncommon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemBasicInfo
+      value: Entry level engine for the mecha.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.itemDetailedInfo
+      value: Provides 300MV power
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093302927480510307, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_Name
+      value: SampleItemInfoContainerBase_BasicEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemCategoryName
+      value: Category1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemName
+      value: Item_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemQuality
+      value: Common
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemBasicInfo
+      value: This is basic information
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemDetailedInfo
+      value: This is very very very detailed information
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemColor.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemColor.b
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117383605365848627, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: itemColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b791b1d610855924ab9623fd2f7237d2, type: 3}
