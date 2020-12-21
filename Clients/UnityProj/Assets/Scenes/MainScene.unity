@@ -163,10 +163,12 @@ MonoBehaviour:
   UICanvas: {fileID: 343709800}
   UIInventory_Panel: {fileID: 342180463}
   ItemDataList:
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
+  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
   - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   UIInventoryItemLayerMask:
     serializedVersion: 2
     m_Bits: 1073741824
@@ -1400,10 +1402,12 @@ MonoBehaviour:
   UICanvas: {fileID: 343709800}
   UIInventory_Panel: {fileID: 1793811511}
   ItemDataList:
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
+  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
   - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   UIInventoryItemLayerMask:
     serializedVersion: 2
     m_Bits: 1073741824
@@ -1471,10 +1475,12 @@ MonoBehaviour:
   UICanvas: {fileID: 343709800}
   UIInventory_Panel: {fileID: 1814549993}
   ItemDataList:
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
+  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
   - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   UIInventoryItemLayerMask:
     serializedVersion: 2
     m_Bits: 1073741824
@@ -1542,10 +1548,12 @@ MonoBehaviour:
   UICanvas: {fileID: 343709800}
   UIInventory_Panel: {fileID: 780967347}
   ItemDataList:
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
+  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
   - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
   UIInventoryItemLayerMask:
     serializedVersion: 2
     m_Bits: 1073741824

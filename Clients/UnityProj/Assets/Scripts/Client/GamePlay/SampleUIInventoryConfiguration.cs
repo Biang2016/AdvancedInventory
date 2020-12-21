@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using BiangStudio.AdvancedInventory;
-using BiangStudio.AdvancedInventory.UIInventory;
-using BiangStudio.DragHover;
-using BiangStudio.GameDataFormat.Grid;
+using BiangLibrary.AdvancedInventory;
+using BiangLibrary.AdvancedInventory.UIInventory;
+using BiangLibrary.DragHover;
+using BiangLibrary.GameDataFormat.Grid;
 using UnityEngine;
 
-public class SampleUIInventory : MonoBehaviour
+public class SampleUIInventoryConfiguration : MonoBehaviour
 {
     public GameObject UIInventoryGridPrefab;
     public GameObject UIInventoryItemPrefab;
@@ -17,7 +17,7 @@ public class SampleUIInventory : MonoBehaviour
     public UIInventoryPanel UIInventory_Panel;
     private DragProcessor<UIInventoryItem> DragProcessor_UIInventoryItem;
 
-    public List<InventoryItemInfoContainer> ItemDataList = new List<InventoryItemInfoContainer>();
+    public List<SampleUIInventoryItem> ItemDataList = new List<SampleUIInventoryItem>();
     public LayerMask UIInventoryItemLayerMask;
 
     public string InventoryName;
@@ -35,9 +35,9 @@ public class SampleUIInventory : MonoBehaviour
     {
         InitDragProcessor();
         InitUIInventory();
-        foreach (InventoryItemInfoContainer iic in ItemDataList)
+        foreach (SampleUIInventoryItem UIItem in ItemDataList)
         {
-            InventoryItem item = new InventoryItem(iic.ItemInfo, UIInventory, GridPosR.Zero);
+            InventoryItem item = new InventoryItem(UIItem.ItemInfo, UIInventory, GridPosR.Zero);
             UIInventory.TryAddItem(item);
         }
     }

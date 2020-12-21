@@ -1070,7 +1070,7 @@ GameObject:
   - component: {fileID: 7920125191214642279}
   - component: {fileID: 4653203445390811644}
   m_Layer: 5
-  m_Name: InventoryItemVirtualOccupationRoot
+  m_Name: UIInventoryVirtualOccupationQuadRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1627,7 +1627,7 @@ GameObject:
   - component: {fileID: 8181138559725982995}
   - component: {fileID: 7917803274916129999}
   m_Layer: 5
-  m_Name: GridContainer
+  m_Name: UIInventoryGridContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1829,8 +1829,9 @@ MonoBehaviour:
   ItemContainerGridLayout: {fileID: 7917803274916129999}
   PanelTransform: {fileID: 5894908770889329394}
   Container: {fileID: 1125059906150776365}
-  GridContainer: {fileID: 6846549778914956298}
+  UIInventoryGridContainer: {fileID: 6846549778914956298}
   ItemContainer: {fileID: 1744715677681809230}
+  UIInventoryVirtualOccupationQuadRoot: {fileID: 4653203445390811644}
   UIInventoryDragAreaIndicator: {fileID: 2070147183841678506}
 --- !u!1 &8450975649393785219
 GameObject:

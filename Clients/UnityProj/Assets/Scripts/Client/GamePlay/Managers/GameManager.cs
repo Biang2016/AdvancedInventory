@@ -1,7 +1,7 @@
-﻿using BiangStudio.AdvancedInventory;
-using BiangStudio.AdvancedInventory.UIInventory;
-using BiangStudio.DragHover;
-using BiangStudio.Singleton;
+﻿using BiangLibrary.AdvancedInventory;
+using BiangLibrary.AdvancedInventory.UIInventory;
+using BiangLibrary.DragHover;
+using BiangLibrary.Singleton;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

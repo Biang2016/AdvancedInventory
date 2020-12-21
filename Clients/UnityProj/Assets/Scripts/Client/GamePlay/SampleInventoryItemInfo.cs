@@ -1,8 +1,8 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections.Generic;
-using BiangStudio.AdvancedInventory;
-using BiangStudio.GameDataFormat.Grid;
+using BiangLibrary.AdvancedInventory;
+using BiangLibrary.GameDataFormat.Grid;
 
 [Serializable]
 public class SampleInventoryItemInfo : IInventoryItemContentInfo
