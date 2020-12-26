@@ -34,6 +34,9 @@ public class SampleInventoryItemInfo : IInventoryItemContentInfo
     [SerializeField]
     private Color itemColor;
 
+    [SerializeField]
+    private bool rotatable;
+
     #region IInventoryItemContentInfo
 
     public List<GridPos> IInventoryItemContentInfo_OriginalOccupiedGridPositions => originalOccupiedGridPositions;
@@ -45,6 +48,7 @@ public class SampleInventoryItemInfo : IInventoryItemContentInfo
     public Sprite ItemSprite => itemSprite;
     public Sprite ItemSprite_1x1 => itemSprite_1x1;
     public Color ItemColor => itemColor;
+    public bool Rotatable => rotatable;
 
     #endregion
 }

@@ -10,13 +10,13 @@ PrefabInstance:
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
       propertyPath: SampleItemInfo.originalOccupiedGridPositions.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
       propertyPath: SampleItemInfo.itemSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5fc018d0c1b1a4342953c9891f0d249e,
+      objectReference: {fileID: 21300000, guid: f504ae824a2adba499c79c787e8275de,
         type: 3}
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
@@ -26,22 +26,22 @@ PrefabInstance:
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
       propertyPath: SampleItemInfo.itemName
-      value: Leave Gun
+      value: Water Gun Plus
       objectReference: {fileID: 0}
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
       propertyPath: SampleItemInfo.itemColor.r
-      value: 1
+      value: 0.47798735
       objectReference: {fileID: 0}
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
       propertyPath: SampleItemInfo.itemColor.g
-      value: 0.78583384
+      value: 0.82912505
       objectReference: {fileID: 0}
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
       propertyPath: SampleItemInfo.itemColor.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
@@ -75,13 +75,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
+      propertyPath: SampleItemInfo.originalOccupiedGridPositions.Array.data[3].z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.originalOccupiedGridPositions.Array.data[3].x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.originalOccupiedGridPositions.Array.data[4].x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
+      propertyPath: SampleItemInfo.originalOccupiedGridPositions.Array.data[4].z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751839199425358403, guid: b791b1d610855924ab9623fd2f7237d2,
+        type: 3}
       propertyPath: SampleItemInfo.rotatable
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2093302927480510307, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}
       propertyPath: m_Name
-      value: SampleItemInfoContainerBase_LeaveGun
+      value: SampleItemInfoContainerBase_WaterGunPlus
       objectReference: {fileID: 0}
     - target: {fileID: 2147805309972931868, guid: b791b1d610855924ab9623fd2f7237d2,
         type: 3}

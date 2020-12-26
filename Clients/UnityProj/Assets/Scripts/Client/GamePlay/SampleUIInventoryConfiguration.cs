@@ -17,7 +17,6 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
     private DragProcessor<UIInventoryItem> DragProcessor_UIInventoryItem;
 
     public List<SampleUIInventoryItem> ItemDataList = new List<SampleUIInventoryItem>();
-    public LayerMask UIInventoryItemLayerMask;
 
     public string InventoryName;
     public KeyCode ToggleKey;
@@ -47,27 +46,26 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
     {
         DragProcessor_UIInventoryItem = new DragProcessor<UIInventoryItem>();
         DragProcessor_UIInventoryItem.Init(
-            GameManager.Instance.UICamera,
-            UIInventoryItemLayerMask.value,
-            (out Vector2 mouseScreenPos) =>
+            camera: GameManager.Instance.UICamera,
+            layerMask: 1 << UIInventoryItemGridPrefab.layer,
+            getScreenMousePositionHandler: (out Vector2 mouseScreenPos) =>
             {
                 mouseScreenPos = Input.mousePosition;
                 return true;
             },
-            UIInventory_Panel.UIInventoryDragAreaIndicator.GetMousePosOnThisArea,
-            delegate(UIInventoryItem ii, Collider collider, DragProcessor dragProcessor) { },
-            delegate(UIInventoryItem ii, Collider collider, DragProcessor dragProcessor) { }
-        );
+            screenMousePositionToWorldHandler: UIInventory_Panel.UIInventoryDragAreaIndicator.GetMousePosOnThisArea,
+            onBeginDrag: null,
+            onCancelDrag: null);
     }
 
     private void InitUIInventory()
     {
         Canvas canvas = GetComponentInParent<Canvas>();
         UIInventory = new UIInventory(
-            InventoryName,
-            UIInventory_Panel.UIInventoryDragAreaIndicator,
-            DragProcessor_UIInventoryItem,
-            canvas.planeDistance,
+            inventoryName: InventoryName,
+            dragAreaIndicator: UIInventory_Panel.UIInventoryDragAreaIndicator,
+            dragProcessor: DragProcessor_UIInventoryItem,
+            canvasDistance: canvas.planeDistance,
             gridSize: GridSize, // UI units
             rows: Rows,
             columns: Columns,
@@ -91,15 +89,15 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
         UIInventory.ToggleDebugCallback = null;
 
         UIInventory_Panel.Init(UIInventory,
-            delegate(UIInventoryItem bi)
+            delegate(UIInventoryItem item)
             {
-                //Debug.Log($"On Mouse Hover UIInventoryItem {bi.name}");
+                //Debug.Log($"On Mouse Hover UIInventoryItem {item.name}");
                 UIInventory_Panel.UIInventoryItemInfoPanel.Show();
-                UIInventory_Panel.UIInventoryItemInfoPanel.Initialize(bi.InventoryItem.ItemContentInfo);
+                UIInventory_Panel.UIInventoryItemInfoPanel.Initialize(item.InventoryItem.ItemContentInfo);
             },
-            delegate(UIInventoryItem bi)
+            delegate(UIInventoryItem item)
             {
-                //Debug.Log($"On Mouse Leave UIInventoryItem {bi.name}");
+                //Debug.Log($"On Mouse Leave UIInventoryItem {item.name}");
                 UIInventory_Panel.UIInventoryItemInfoPanel.Hide();
             });
         UIInventory_Panel.gameObject.SetActive(false);

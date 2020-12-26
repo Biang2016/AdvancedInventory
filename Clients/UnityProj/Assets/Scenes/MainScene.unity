@@ -197,6 +197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
+      propertyPath: ItemDataList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
       propertyPath: InventoryName
       value: BottomInventory
       objectReference: {fileID: 0}
@@ -235,6 +240,12 @@ PrefabInstance:
       propertyPath: UIInventory_Panel
       value: 
       objectReference: {fileID: 342180463}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ItemDataList.Array.data[6]
+      value: 
+      objectReference: {fileID: 2770416725037953448, guid: d9966dbf9df66a346b76c5e00dd060f0,
+        type: 3}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -871,6 +882,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
+      propertyPath: ItemDataList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
       propertyPath: InventoryName
       value: TopInventory
       objectReference: {fileID: 0}
@@ -904,6 +920,17 @@ PrefabInstance:
       propertyPath: UIInventory_Panel
       value: 
       objectReference: {fileID: 780967347}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: X_Mirror
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ItemDataList.Array.data[6]
+      value: 
+      objectReference: {fileID: 2770416725037953448, guid: d9966dbf9df66a346b76c5e00dd060f0,
+        type: 3}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1498,6 +1525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
+      propertyPath: ItemDataList.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
       propertyPath: InventoryName
       value: LeftInventory
       objectReference: {fileID: 0}
@@ -1541,6 +1573,18 @@ PrefabInstance:
       propertyPath: UIInventory_Panel
       value: 
       objectReference: {fileID: 1793811511}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ItemDataList.Array.data[6]
+      value: 
+      objectReference: {fileID: 2770416725037953448, guid: d9966dbf9df66a346b76c5e00dd060f0,
+        type: 3}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ItemDataList.Array.data[7]
+      value: 
+      objectReference: {fileID: 2770416725037953448, guid: 21453e5dcd4d9394abd7c0a3f38c6c0b,
+        type: 3}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2040,6 +2084,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
+      propertyPath: ItemDataList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
       propertyPath: InventoryName
       value: RightInventory
       objectReference: {fileID: 0}
@@ -2063,6 +2112,12 @@ PrefabInstance:
       propertyPath: EnableScreenClamp
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ItemDataList.Array.data[6]
+      value: 
+      objectReference: {fileID: 2770416725037953448, guid: d9966dbf9df66a346b76c5e00dd060f0,
+        type: 3}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchorMin.y
