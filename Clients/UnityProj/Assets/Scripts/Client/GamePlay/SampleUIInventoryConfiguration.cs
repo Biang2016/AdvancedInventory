@@ -12,9 +12,8 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
     public GameObject UIInventoryItemGridPrefab;
     public GameObject UIInventoryVirtualOccupationQuadPrefab;
 
-    public Canvas UICanvas;
     private UIInventory UIInventory;
-    public UIInventoryPanel UIInventory_Panel;
+    private UIInventoryPanel UIInventory_Panel;
     private DragProcessor<UIInventoryItem> DragProcessor_UIInventoryItem;
 
     public List<SampleUIInventoryItem> ItemDataList = new List<SampleUIInventoryItem>();
@@ -34,6 +33,7 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
 
     private void Start()
     {
+        UIInventory_Panel = GetComponent<UIInventoryPanel>();
         InitDragProcessor();
         InitUIInventory();
         foreach (SampleUIInventoryItem UIItem in ItemDataList)
@@ -62,11 +62,12 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
 
     private void InitUIInventory()
     {
+        Canvas canvas = GetComponentInParent<Canvas>();
         UIInventory = new UIInventory(
             InventoryName,
             UIInventory_Panel.UIInventoryDragAreaIndicator,
             DragProcessor_UIInventoryItem,
-            UICanvas.planeDistance,
+            canvas.planeDistance,
             gridSize: GridSize, // UI units
             rows: Rows,
             columns: Columns,
