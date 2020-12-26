@@ -411,6 +411,95 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!1 &1036621929081774664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3916668220504144766}
+  - component: {fileID: 6547938073565222157}
+  - component: {fileID: 2761041889977600481}
+  - component: {fileID: 2191210263849843973}
+  m_Layer: 5
+  m_Name: InventoryDragMoveHandle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3916668220504144766
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036621929081774664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8097909478349585428}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6547938073565222157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036621929081774664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b3b04301560a34fa0a8d2965413d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIInventoryPanelRectTransform: {fileID: 5894908770889329394}
+--- !u!222 &2761041889977600481
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036621929081774664}
+  m_CullTransparentMesh: 0
+--- !u!114 &2191210263849843973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036621929081774664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1179289433759279523
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8097909478349585428}
+  - component: {fileID: 3160560154991702641}
   m_Layer: 5
   m_Name: InventoryTitleContainer
   m_TagString: Untagged
@@ -439,6 +529,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5883837694488697669}
+  - {fileID: 3916668220504144766}
   m_Father: {fileID: 5894908770889329394}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -447,6 +538,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3160560154991702641
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179289433759279523}
+  m_CullTransparentMesh: 0
 --- !u!1 &1671837821663407611
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,7 +1041,9 @@ MonoBehaviour:
   UIInventory:
     InventoryName: 
     DragAreaIndicator: {fileID: 0}
+    EnableLog: 0
     UIInventoryPanel: {fileID: 0}
+    EnableScreenClamp: 0
 --- !u!114 &1388491218765668350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1771,6 +1872,7 @@ GameObject:
   - component: {fileID: 2707196692012080598}
   - component: {fileID: 5387691443965475779}
   - component: {fileID: 140084516278828573}
+  - component: {fileID: 1611789121114346634}
   m_Layer: 5
   m_Name: UIInventoryPanel
   m_TagString: Untagged
@@ -1822,10 +1924,13 @@ MonoBehaviour:
   UIInventory:
     InventoryName: 
     DragAreaIndicator: {fileID: 0}
+    EnableLog: 0
     UIInventoryPanel: {fileID: 0}
+    EnableScreenClamp: 0
   UIInventoryItemInfoPanel: {fileID: 6618439998447462517}
   UIInventoryTitle: {fileID: 2341957636232965673}
   UIInventoryTitleContainer: {fileID: 8097909478349585428}
+  UIInventoryDragMoveHandle: {fileID: 6547938073565222157}
   ItemContainerGridLayout: {fileID: 7917803274916129999}
   PanelTransform: {fileID: 5894908770889329394}
   Container: {fileID: 1125059906150776365}
@@ -1833,6 +1938,49 @@ MonoBehaviour:
   ItemContainer: {fileID: 1744715677681809230}
   UIInventoryVirtualOccupationQuadRoot: {fileID: 4653203445390811644}
   UIInventoryDragAreaIndicator: {fileID: 2070147183841678506}
+--- !u!114 &1611789121114346634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349317807001677252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69cceea3959961241b1dff834a7e27e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIInventoryGridPrefab: {fileID: 4722512855538679803, guid: cfbda1581abd44e4ba821b72e718ccb1,
+    type: 3}
+  UIInventoryItemPrefab: {fileID: 962769552901066460, guid: 5c37a7fc7dccca9469ec4ac6983e3b08,
+    type: 3}
+  UIInventoryItemGridPrefab: {fileID: 8502405318632151848, guid: 0bb1d2a3ac3884058a0b29ab08f2a51a,
+    type: 3}
+  UIInventoryVirtualOccupationQuadPrefab: {fileID: 4722512855538679803, guid: 4c08966fd3ae2ba4aac99d4c13638694,
+    type: 3}
+  UICanvas: {fileID: 0}
+  UIInventory_Panel: {fileID: 0}
+  ItemDataList:
+  - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
+  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
+  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
+  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
+  UIInventoryItemLayerMask:
+    serializedVersion: 2
+    m_Bits: 1073741824
+  InventoryName: 
+  ToggleKey: 0
+  GridSize: 100
+  Rows: 5
+  Columns: 4
+  X_Mirror: 0
+  Z_Mirror: 1
+  UnlockPartialGrids: 1
+  UnlockedGridCount: 20
+  DragOutDrop: 0
+  EnableScreenClamp: 0
 --- !u!1 &8450975649393785219
 GameObject:
   m_ObjectHideFlags: 0

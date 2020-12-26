@@ -30,6 +30,7 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
     public bool UnlockPartialGrids;
     public int UnlockedGridCount;
     public bool DragOutDrop;
+    public bool EnableScreenClamp;
 
     private void Start()
     {
@@ -74,6 +75,8 @@ public class SampleUIInventoryConfiguration : MonoBehaviour
             unlockedPartialGrids: UnlockPartialGrids,
             unlockedGridCount: UnlockedGridCount,
             dragOutDrop: DragOutDrop,
+            enableScreenClamp: EnableScreenClamp,
+            enableLog: false,
             toggleUIInventoryKeyDownHandler: () => Input.GetKeyDown(ToggleKey), // Toggle uiInventory
             rotateItemKeyDownHandler: () => Input.GetKeyDown(KeyCode.R), // Rotate uiInventory item
             instantiateUIInventoryGridHandler: (parent) => Instantiate(UIInventoryGridPrefab, parent).GetComponent<UIInventoryGrid>(),

@@ -29,6 +29,9 @@ public class SampleInventoryItemInfo : IInventoryItemContentInfo
     private Sprite itemSprite;
 
     [SerializeField]
+    private Sprite itemSprite_1x1;
+
+    [SerializeField]
     private Color itemColor;
 
     #region IInventoryItemContentInfo
@@ -40,6 +43,7 @@ public class SampleInventoryItemInfo : IInventoryItemContentInfo
     public string ItemBasicInfo => itemBasicInfo;
     public string ItemDetailedInfo => itemDetailedInfo;
     public Sprite ItemSprite => itemSprite;
+    public Sprite ItemSprite_1x1 => itemSprite_1x1;
     public Color ItemColor => itemColor;
 
     #endregion

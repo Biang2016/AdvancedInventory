@@ -123,79 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &113878315
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 113878317}
-  - component: {fileID: 113878316}
-  m_Layer: 0
-  m_Name: BottomInventory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &113878316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113878315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69cceea3959961241b1dff834a7e27e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UIInventoryGridPrefab: {fileID: 4722512855538679803, guid: cfbda1581abd44e4ba821b72e718ccb1,
-    type: 3}
-  UIInventoryItemPrefab: {fileID: 962769552901066460, guid: 5c37a7fc7dccca9469ec4ac6983e3b08,
-    type: 3}
-  UIInventoryItemGridPrefab: {fileID: 8502405318632151848, guid: 0bb1d2a3ac3884058a0b29ab08f2a51a,
-    type: 3}
-  UIInventoryVirtualOccupationQuadPrefab: {fileID: 4722512855538679803, guid: 4c08966fd3ae2ba4aac99d4c13638694,
-    type: 3}
-  UICanvas: {fileID: 343709800}
-  UIInventory_Panel: {fileID: 342180463}
-  ItemDataList:
-  - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  UIInventoryItemLayerMask:
-    serializedVersion: 2
-    m_Bits: 1073741824
-  InventoryName: BottomInventory
-  ToggleKey: 118
-  GridSize: 200
-  Rows: 1
-  Columns: 4
-  X_Mirror: 0
-  Z_Mirror: 1
-  UnlockPartialGrids: 1
-  UnlockedGridCount: 4
-  DragOutDrop: 1
---- !u!4 &113878317
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113878315}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &342180461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -268,6 +195,46 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: InventoryName
+      value: BottomInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ToggleKey
+      value: 118
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: GridSize
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: Rows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UnlockedGridCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: DragOutDrop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UICanvas
+      value: 
+      objectReference: {fileID: 343709800}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UIInventory_Panel
+      value: 
+      objectReference: {fileID: 342180463}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -902,6 +869,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: InventoryName
+      value: TopInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ToggleKey
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: Rows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: Columns
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UnlockedGridCount
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UICanvas
+      value: 
+      objectReference: {fileID: 343709800}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UIInventory_Panel
+      value: 
+      objectReference: {fileID: 780967347}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1305,7 +1307,7 @@ PrefabInstance:
     - target: {fileID: 8097909478349585428, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 300
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 8097909478349585428, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
@@ -1362,225 +1364,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 780967346}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &938352659
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 938352661}
-  - component: {fileID: 938352660}
-  m_Layer: 0
-  m_Name: LeftInventory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &938352660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938352659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69cceea3959961241b1dff834a7e27e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UIInventoryGridPrefab: {fileID: 4722512855538679803, guid: cfbda1581abd44e4ba821b72e718ccb1,
-    type: 3}
-  UIInventoryItemPrefab: {fileID: 962769552901066460, guid: 5c37a7fc7dccca9469ec4ac6983e3b08,
-    type: 3}
-  UIInventoryItemGridPrefab: {fileID: 8502405318632151848, guid: 0bb1d2a3ac3884058a0b29ab08f2a51a,
-    type: 3}
-  UIInventoryVirtualOccupationQuadPrefab: {fileID: 4722512855538679803, guid: 4c08966fd3ae2ba4aac99d4c13638694,
-    type: 3}
-  UICanvas: {fileID: 343709800}
-  UIInventory_Panel: {fileID: 1793811511}
-  ItemDataList:
-  - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  UIInventoryItemLayerMask:
-    serializedVersion: 2
-    m_Bits: 1073741824
-  InventoryName: LeftInventory
-  ToggleKey: 120
-  GridSize: 60
-  Rows: 10
-  Columns: 8
-  X_Mirror: 0
-  Z_Mirror: 1
-  UnlockPartialGrids: 1
-  UnlockedGridCount: 41
-  DragOutDrop: 1
---- !u!4 &938352661
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938352659}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &950551138
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 950551140}
-  - component: {fileID: 950551139}
-  m_Layer: 0
-  m_Name: RightInventory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &950551139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950551138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69cceea3959961241b1dff834a7e27e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UIInventoryGridPrefab: {fileID: 4722512855538679803, guid: cfbda1581abd44e4ba821b72e718ccb1,
-    type: 3}
-  UIInventoryItemPrefab: {fileID: 962769552901066460, guid: 5c37a7fc7dccca9469ec4ac6983e3b08,
-    type: 3}
-  UIInventoryItemGridPrefab: {fileID: 8502405318632151848, guid: 0bb1d2a3ac3884058a0b29ab08f2a51a,
-    type: 3}
-  UIInventoryVirtualOccupationQuadPrefab: {fileID: 4722512855538679803, guid: 4c08966fd3ae2ba4aac99d4c13638694,
-    type: 3}
-  UICanvas: {fileID: 343709800}
-  UIInventory_Panel: {fileID: 1814549993}
-  ItemDataList:
-  - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  UIInventoryItemLayerMask:
-    serializedVersion: 2
-    m_Bits: 1073741824
-  InventoryName: RightInventory
-  ToggleKey: 122
-  GridSize: 100
-  Rows: 5
-  Columns: 4
-  X_Mirror: 0
-  Z_Mirror: 1
-  UnlockPartialGrids: 1
-  UnlockedGridCount: 20
-  DragOutDrop: 0
---- !u!4 &950551140
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950551138}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1263544775
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1263544777}
-  - component: {fileID: 1263544776}
-  m_Layer: 0
-  m_Name: TopInventory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1263544776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263544775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69cceea3959961241b1dff834a7e27e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UIInventoryGridPrefab: {fileID: 4722512855538679803, guid: cfbda1581abd44e4ba821b72e718ccb1,
-    type: 3}
-  UIInventoryItemPrefab: {fileID: 962769552901066460, guid: 5c37a7fc7dccca9469ec4ac6983e3b08,
-    type: 3}
-  UIInventoryItemGridPrefab: {fileID: 8502405318632151848, guid: 0bb1d2a3ac3884058a0b29ab08f2a51a,
-    type: 3}
-  UIInventoryVirtualOccupationQuadPrefab: {fileID: 4722512855538679803, guid: 4c08966fd3ae2ba4aac99d4c13638694,
-    type: 3}
-  UICanvas: {fileID: 343709800}
-  UIInventory_Panel: {fileID: 780967347}
-  ItemDataList:
-  - {fileID: 2770416725037953448, guid: b5b3169f38ff03e43b50dff590ce0af3, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  - {fileID: 2770416725037953448, guid: 32df6bde090c9884abfd879748f1731a, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: 5afdbdc47aac22848bd07d0fdca20d32, type: 3}
-  - {fileID: 2770416725037953448, guid: c73763ff43bfc204c9466979460e98e0, type: 3}
-  UIInventoryItemLayerMask:
-    serializedVersion: 2
-    m_Bits: 1073741824
-  InventoryName: TopInventory
-  ToggleKey: 99
-  GridSize: 100
-  Rows: 2
-  Columns: 9
-  X_Mirror: 0
-  Z_Mirror: 1
-  UnlockPartialGrids: 1
-  UnlockedGridCount: 16
-  DragOutDrop: 0
---- !u!4 &1263544777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263544775}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1735458570 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 3415876932911836483, guid: 776f29a684a9a412eb9b5171aa4742bd,
@@ -1713,6 +1496,51 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: InventoryName
+      value: LeftInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ToggleKey
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: GridSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: Rows
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: Columns
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UnlockedGridCount
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: DragOutDrop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UICanvas
+      value: 
+      objectReference: {fileID: 343709800}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UIInventory_Panel
+      value: 
+      objectReference: {fileID: 1793811511}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2209,6 +2037,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: InventoryName
+      value: RightInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: ToggleKey
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UICanvas
+      value: 
+      objectReference: {fileID: 343709800}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: UIInventory_Panel
+      value: 
+      objectReference: {fileID: 1814549993}
+    - target: {fileID: 1611789121114346634, guid: 6aba9869cdf5cd643bfa11372d331c1b,
+        type: 3}
+      propertyPath: EnableScreenClamp
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1768107650156633684, guid: 6aba9869cdf5cd643bfa11372d331c1b,
         type: 3}

@@ -1,5 +1,4 @@
-﻿using BiangLibrary.AdvancedInventory;
-using BiangLibrary.AdvancedInventory.UIInventory;
+﻿using BiangLibrary.AdvancedInventory.UIInventory;
 using BiangLibrary.DragHover;
 using BiangLibrary.Singleton;
 using UnityEngine;
@@ -14,8 +13,6 @@ public class GameManager : MonoSingleton<GameManager>
 
     private void Awake()
     {
-        Inventory.EnableLog = true;
-
         DragManager.Instance.Awake();
         MouseHoverManager.Instance.Awake();
         DragManager.Instance.Init(
